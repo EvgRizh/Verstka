@@ -1,0 +1,288 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-family: "Arial";
+	background-color: #E48187;
+}
+
+
+.header {
+	flex-wrap: nowrap;
+	height: 100px;
+	width: 100%;
+	background-color: #BD2931;
+}
+
+.header-area {
+	height: 100px;
+	width: 70%;
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0 auto 0 auto;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.header-logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: start;
+	width: 35%;
+	height: 80px;
+}
+
+.header-contact {
+	height: 80px;
+	width: 35%;
+	color: white;
+}
+
+.header-contact__text {
+	text-align: right;
+	font-size: 18px;
+}
+
+.logo__index {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 36px;
+	width: 80px;
+	height: 80px;
+	color: black;
+	background-color: #91FF00;
+}
+
+.logo__index:hover {
+    background-color: greenyellow;
+}
+
+.logo-slogan {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: white;
+	height: 60px;
+	margin-left: 5px;
+}
+
+.logo-slogan__text_small {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.logo-slogan__text_big {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.head-container {
+	width: 70%;
+	height: 640px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.head__text {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.head__title_big {
+	font-size: 64px;
+	font-weight: bold;
+	text-align: left;
+	color: #D9DB31;
+	margin-bottom: 20px;
+}
+
+.head__title_small {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	color: #BD2931;
+	margin-bottom: 40px;
+}
+
+.head__img{
+	width: 50%;
+}
+
+.container {
+	width: 70%;
+	min-height: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	margin-bottom: 50px;
+}
+
+.head_image100 {
+	width: 100%;
+	border: 1px solid #D9DB31;
+	border-radius: 20px;
+}
+
+.adres__img {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.adres__content {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: right;
+	font-size: 18px;
+}
+
+.direction__img {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.direction__content {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+}
+
+.shcola {
+	color:#D9DB31;
+}
+
+.button {
+	width: 250px;
+	border-radius: 20px;
+	text-align: center;
+	display: inline-block;
+	padding: 20px;
+	font-size: 36px;
+	color:  whitesmoke;
+	background-color: #D9DB31;
+}
+
+.dark {
+	background-color: #FCFCD9;
+	border-radius: 20px;
+}
+
+.light {
+	background-color: #F8F8F8;
+	border-radius: 20px;
+}
+
+.white {
+	background-color: white;
+	border-radius: 20px;
+}
+
+td {
+	padding: 20px;
+	font-size: 18px;
+}
+
+#targetButton {
+	text-align: center;
+}
+
+#top {
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
+}
+
+#top:hover {
+	cursor: pointer;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100px;
+	width: 100%;
+	background-color: #BD2931;
+	color: white;
+}
+
+.footer-area {
+	height: 100px;
+	width: 70%;
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0 auto 0 auto;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.footer__social {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 40%;
+
+}
+
+.footer__social_title {
+	width: 50%;
+	text-align: left;
+	align-self: center;
+}
+
+.footer__social_menu {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-self: center;
+	list-style-type: none;
+}
+
+.footer__copyright {
+	width: 40%;
+	text-align: right;
+}
